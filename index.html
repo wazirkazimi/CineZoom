@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CineZoom</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="font-sans">
+    <section class="hero" >
+        <header class="flex justify-between items-center p-6 bg-transparent">
+            <h1 class="text-3xl font-bold text-white">🎬 CineZoom</h1>
+            <button class="px-4 py-2 bg-purple-600 rounded-lg hover:bg-purple-500">Login</button>
+        </header>
+
+        <h2 class="hero-title lex text-white text-[2.28rem] font-extrabold absolute left-[5%] bottom-[15%]"></h2>
+        <div class="posters-section">
+        </div>
+        
+    </section>
+    
+    <section class="w-full p-8 text-left bg-black h-[80vh]">
+  <h5 class="text-[#ff01ee] font-semibold">As in to Prefer</h5>
+  <h2 class="text-4xl font-bold mb-4">Choose the type of Film you like</h2>
+  <p class="text-gray-300 mb-6">Curated from various Genres</p>
+
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+  <!-- Card 1: Action -->
+  <div class="bg-gray-900 rounded-lg shadow-lg p-6 flex flex-col space-y-4 hover:bg-gray-800 transition">
+    <div class="flex items-center space-x-4">
+      <div class="text-[#ff01ee]">
+        <!-- Action Icon -->
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 4v16M17 4v16M4 10h16M7 17l5-5 5 5" />
+        </svg>
+      </div>
+      <div>
+        <h3 class="text-white font-semibold text-lg">Action</h3>
+        <p class="text-pink-400 text-sm">1680+ Movies</p>
+      </div>
+    </div>
+    <p class="text-gray-400 text-sm">High-energy films with lots of stunts and effects.</p>
+    <a href="#" class="text-gray-300 flex items-center gap-1 group mt-auto">
+      <span>View All</span>
+      <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-[#ff01ee] group-hover:translate-x-1 transition-transform" viewBox="0 0 20 20" fill="currentColor">
+        <path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+      </svg>
+    </a>
+  </div>
+
+  <!-- Card 2: Romance -->
+  <div class="bg-gray-900 rounded-lg shadow-lg p-6 flex flex-col space-y-4 hover:bg-gray-800 transition">
+    <div class="flex items-center space-x-4">
+      <div class="text-[#ff01ee]">
+        <!-- Romance Icon -->
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+        </svg>
+      </div>
+      <div>
+        <h3 class="text-white font-semibold text-lg">Romance</h3>
+        <p class="text-pink-400 text-sm">1200+ Movies</p>
+      </div>
+    </div>
+    <p class="text-gray-400 text-sm">Heartwarming stories of love and relationships.</p>
+    <a href="#" class="text-gray-300 flex items-center gap-1 group mt-auto">
+      <span>View All</span>
+      <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-[#ff01ee] group-hover:translate-x-1 transition-transform" viewBox="0 0 20 20" fill="currentColor">
+        <path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+      </svg>
+    </a>
+  </div>
+
+  <!-- Card 3: Comedy -->
+  <div class="bg-gray-900 rounded-lg shadow-lg p-6 flex flex-col space-y-4 hover:bg-gray-800 transition">
+    <div class="flex items-center space-x-4">
+      <div class="text-[#ff01ee]">
+        <!-- Comedy Icon -->
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+        </svg>
+      </div>
+      <div>
+        <h3 class="text-white font-semibold text-lg">Comedy</h3>
+        <p class="text-pink-400 text-sm">1450+ Movies</p>
+      </div>
+    </div>
+    <p class="text-gray-400 text-sm">Light-hearted films to make you laugh out loud.</p>
+    <a href="#" class="text-gray-300 flex items-center gap-1 group mt-auto">
+      <span>View All</span>
+      <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-[#ff01ee] group-hover:translate-x-1 transition-transform" viewBox="0 0 20 20" fill="currentColor">
+        <path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+      </svg>
+    </a>
+  </div>
+
+  <!-- Card 4: Horror -->
+  <div class="bg-gray-900 rounded-lg shadow-lg p-6 flex flex-col space-y-4 hover:bg-gray-800 transition">
+    <div class="flex items-center space-x-4">
+      <div class="text-[#ff01ee]">
+        <!-- Horror Icon -->
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+        </svg>
+      </div>
+      <div>
+        <h3 class="text-white font-semibold text-lg">Horror</h3>
+        <p class="text-pink-400 text-sm">950+ Movies</p>
+      </div>
+    </div>
+    <p class="text-gray-400 text-sm">Chilling and suspenseful films to keep you on edge.</p>
+    <a href="#" class="text-gray-300 flex items-center gap-1 group mt-auto">
+      <span>View All</span>
+      <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-[#ff01ee] group-hover:translate-x-1 transition-transform" viewBox="0 0 20 20" fill="currentColor">
+        <path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+      </svg>
+    </a>
+  </div>
+
+  <!-- Card 5: Drama -->
+  <div class="bg-gray-900 rounded-lg shadow-lg p-6 flex flex-col space-y-4 hover:bg-gray-800 transition">
+    <div class="flex items-center space-x-4">
+      <div class="text-[#ff01ee]">
+        <!-- Drama Icon -->
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+        </svg>
+      </div>
+      <div>
+        <h3 class="text-white font-semibold text-lg">Drama</h3>
+        <p class="text-pink-400 text-sm">2000+ Movies</p>
+      </div>
+    </div>
+    <p class="text-gray-400 text-sm">Deep emotional stories with powerful performances.</p>
+    <a href="#" class="text-gray-300 flex items-center gap-1 group mt-auto">
+      <span>View All</span>
+      <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-[#ff01ee] group-hover:translate-x-1 transition-transform" viewBox="0 0 20 20" fill="currentColor">
+        <path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+      </svg>
+    </a>
+  </div>
+
+  <!-- Card 6: Detective -->
+  <div class="bg-gray-900 rounded-lg shadow-lg p-6 flex flex-col space-y-4 hover:bg-gray-800 transition">
+    <div class="flex items-center space-x-4">
+      <div class="text-[#ff01ee]">
+        <!-- Detective Icon -->
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+        </svg>
+      </div>
+      <div>
+        <h3 class="text-white font-semibold text-lg">Detective</h3>
+        <p class="text-pink-400 text-sm">850+ Movies</p>
+      </div>
+    </div>
+    <p class="text-gray-400 text-sm">Mystery and crime films with thrilling investigations.</p>
+    <a href="#" class="text-gray-300 flex items-center gap-1 group mt-auto">
+      <span>View All</span>
+      <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-[#ff01ee] group-hover:translate-x-1 transition-transform" viewBox="0 0 20 20" fill="currentColor">
+        <path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+      </svg>
+    </a>
+  </div>
+</div>
+</section>
+    
+    <section>
+        <h1 class='font-bold m-4 text-lg'>Trending Movies</h1>
+        <div id="movies" class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6 p-8"></div>
+    </section>
+
+    <div class="flex items-center space-x-2 p-4">
+    <div class="h-full w-1 bg-yellow-500"></div>
+    <span class="text-lg font-semibold">From your Watchlist</span>
+    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+    </svg>
+  </div>
+
+  <!-- Main Content Section -->
+  <section class="flex flex-col items-center justify-center h-[50vh]">
+    <!-- Plus Icon -->
+    <div class="text-9xl text-pink-400 mb-8">
+      ♡
+    </div>
+    <!-- Text Content -->
+    <div class="text-center">
+      <p class="text-xl font-semibold mb-2">Sign in to access your Watchlist</p>
+      <p class="text-gray-400">Save shows and movies to keep track of what you want to watch.</p>
+    </div>
+
+    <button class="mt-8 px-6 py-3 bg-gray-800 text-blue-500 rounded-full hover:bg-gray-700 transition duration-300">
+      Sign in to CineZoom
+    </button>
+</section>
+
+<section id="top-rated" class="bg-gray-950 text-white py-10 px-6">
+  <h2 class="text-3xl font-bold mb-6 text-center">🎖️ Top Rated Movies</h2>
+  <div id="top-rated-list" class="flex justify-center overflow-x-auto space-x-4 px-2 "></div>
+</section>
+
+
+
+
+
+
+
+
+
+
+  <footer class="bg-black text-white border-t border-gray-300 text-sm text-gray-600">
+    <div class="max-w-7xl mx-auto px-4 py-6">
+
+
+
+      <div class="flex flex-col md:flex-row justify-between gap-6 mb-6">
+        <div>
+          <h3 class="font-semibold  mb-2">Follow 🎬 CineZoom</h3>
+          <ul class="space-y-1">
+            <li><a href="#" class="hover:underline">Facebook</a></li>
+            <li><a href="#" class="hover:underline">Twitter</a></li>
+            <li><a href="#" class="hover:underline">Instagram</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="font-semibold mb-2">🎬 CineZoom Pro</h3>
+          <ul class="space-y-1">
+            <li><a href="#" class="hover:underline">Contact Pro Service</a></li>
+            <li><a href="#" class="hover:underline">Go to 🎬 CineZoom Pro</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="font-semibold  mb-2">Help</h3>
+          <ul class="space-y-1">
+            <li><a href="#" class="hover:underline">Site Map</a></li>
+            <li><a href="#" class="hover:underline">User Help Center</a></li>
+            <li><a href="#" class="hover:underline">FAQ</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="font-semibold  mb-2">Company</h3>
+          <ul class="space-y-1">
+            <li><a href="#" class="hover:underline">About 🎬 CineZoom</a></li>
+            <li><a href="#" class="hover:underline">Press Room</a></li>
+            <li><a href="#" class="hover:underline">Advertising</a></li>
+            <li><a href="#" class="hover:underline">Jobs</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="mb-6">
+        <select class="border border-gray-300 rounded px-3 py-1 bg-white text-gray-700">
+          <option>English</option>
+          <option>Español</option>
+          <option>Français</option>
+          <option>Deutsch</option>
+        </select>
+      </div>
+
+      <div class="flex flex-col md:flex-row justify-between items-center text-xs text-gray-500">
+        <p class="mb-2 md:mb-0">&copy; 2025-2029 by CineZoom.com, Inc.</p>
+        <div class="flex space-x-4">
+          <a href="#" class="hover:underline">Help</a>
+          <a href="#" class="hover:underline">Site Index</a>
+          <a href="#" class="hover:underline">CineZoomPro</a>
+          <a href="#" class="hover:underline">Box Office </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+    
+    <script src="script.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script defer src="https://kit.fontawesome.com/a2e8e4e60c.js" crossorigin="anonymous"></script>
+</body>
+</html>
