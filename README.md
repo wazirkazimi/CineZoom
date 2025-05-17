@@ -2,6 +2,8 @@
 
 Welcome to **CineZoom**, a sleek and dynamic movie discovery web app powered by the TMDB API. Designed using **HTML**, **Tailwind CSS**, and ** JavaScript**, MovieVerse brings trending cinema to your screen with beautiful visuals, transitions, and a modern UI experience.
 
+🔗 **Live Demo**: [cine-zoom-five.vercel.app](https://cine-zoom-five.vercel.app)
+
 ## 🚀 Features
 
 - 🎞️ **Trending Movies** – Browse trending movies of the week via TMDB API.
@@ -55,13 +57,13 @@ Experience: Ex-CMO @ Simrha Esports – led GTM strategy resulting in 10K+ insta
 Passions: Web development, problem-solving, product growth, and building digital systems
 
 📬 Contact Me
-GitHub: @wazirkazimi [https://github.com/wazirkazim]
+GitHub: [@wazirkazimi] (https://github.com/wazirkazim)
 
 Email: mirwazirkazimi@gmail.com
 
-LinkedIn : @wazie-kazimi [https://www.linkedin.com/in/wazir-kazimi/]
+LinkedIn : [@wazir-kazimi] (https://www.linkedin.com/in/wazir-kazimi/)
 
-Twitter: @09mmwk [https://x.com/09Mmwk]
+Twitter: [@09mmwk] (https://x.com/09Mmwk)
 
 ⭐️ Show Your Support
 If you found this project interesting, please ⭐️ the repo on GitHub and share it with your friends!
