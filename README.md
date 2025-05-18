@@ -25,7 +25,7 @@ Welcome to **CineZoom**, a sleek and dynamic movie discovery web app powered by 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/mmkazimi/movieverse.git
+   git clone https://github.com/wazirkazimi/CineZoom.git
 
 
 # 🙌 What I Learned
